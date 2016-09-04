@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: symfony
+    database_user: root
+    database_password: null
+    mailer_transport: smtp
+    mailer_host: mail.marryprime.com
+    mailer_user: tsunoya@marryprime.com
+    mailer_password: Ayaya8930
+    secret: e98be501936d36dafc78232e1e2684a59dc1bbc6

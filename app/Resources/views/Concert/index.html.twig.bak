@@ -1,0 +1,17 @@
+<html>
+<body>
+<div>
+    <h1>公演情報</h1>
+    <ul>
+        {% for item in concertlist %}
+            <li>
+                {{loop.index}}.
+                {{item.date}}
+                {{item.place}}
+                {{item.time}}開演
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>
